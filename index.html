@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sesión 1 - Texto, Listas, Tablas y Símbolos en HTML</title>
+</head>
+<body>
+    <h1>Sesión 1: Texto, Listas, Tablas y Símbolos en HTML</h1>
+    <hr>
+
+    <h2>1. Formato básico de texto</h2>
+    <p>Estas etiquetas sirven para dar estilo o resaltar partes de un texto:</p>
+    <ul>
+        <li><b>Negrita</b> con &lt;b&gt; → <b>Importante</b></li>
+        <li><strong>Énfasis fuerte</strong> con &lt;strong&gt; → <strong>Atención</strong></li>
+        <li><i>Cursiva</i> con &lt;i&gt; → <i>Palabra</i></li>
+        <li><em>Énfasis semántico</em> con &lt;em&gt; → <em>Muy importante</em></li>
+        <li><u>Subrayado</u> con &lt;u&gt;</li>
+        <li><small>Texto pequeño</small> con &lt;small&gt;</li>
+        <li><mark>Resaltado</mark> con &lt;mark&gt;</li>
+        <li><del>Tachado</del> con &lt;del&gt;</li>
+        <li><ins>Texto añadido</ins> con &lt;ins&gt;</li>
+    </ul>
+
+    <!-- 2. Semántica de texto -->
+    <h2>2. Etiquetas semánticas de texto</h2>
+    <p>Estas etiquetas añaden significado al contenido:</p>
+    <ul>
+        <li>Abreviatura con &lt;abbr&gt; → <abbr title="HyperText Markup Language">HTML</abbr></li>
+        <li>Dirección con &lt;address&gt; → <address>Autor: Diego, correo: diego@mail.com</address></li>
+        <li>Cita de obra con &lt;cite&gt; → <cite>Don Quijote</cite></li>
+        <li>Código con &lt;code&gt; → <code>console.log("Hola")</code></li>
+        <li>Cita corta con &lt;q&gt; → <q>La práctica hace al maestro</q></li>
+        <li>Definición con &lt;dfn&gt; → <dfn>API</dfn> es una interfaz.</li>
+        <li>Variable con &lt;var&gt; → La variable <var>x</var> representa el tiempo.</li>
+    </ul>
+
+    <!-- 3. Listas -->
+    <h2>3. Listas ordenadas y desordenadas</h2>
+    <p>Ejemplo de lista desordenada (viñetas):</p>
+    <ul>
+        <li>Pan</li>
+        <li>Leche</li>
+    </ul>
+
+    <p>Ejemplo de lista ordenada (números):</p>
+    <ol>
+        <li>Primero</li>
+        <li>Segundo</li>
+    </ol>
+
+    <p>Ejemplo de lista de definición:</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de marcado</dd>
+        <dt>CSS</dt>
+        <dd>Hojas de estilo en cascada</dd>
+    </dl>
+
+    <!-- 4. Tablas -->
+    <h2>4. Tablas en HTML</h2>
+    <p>Ejemplo de tabla con encabezado, cuerpo y pie:</p>
+    <table border="1">
+        <caption>Tabla de Emojis Favoritos</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Emoji</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carita feliz</td>
+                <td>&#128512;</td>
+            </tr>
+            <tr>
+                <td>Corazón</td>
+                <td>&#9829;</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- 5. Entidades -->
+    <h2>5. Entidades, símbolos y emojis</h2>
+    <p>Algunos ejemplos de símbolos especiales:</p>
+    <ul>
+        <li>Menor que → &lt; → &lt</li>
+        <li>Mayor que → &gt; → &gt</li>
+        <li>Ampersand → &amp; → &amp</li>
+        <li>Corazón → &#9829; → &#9829</li>
+        <li>Emoji feliz → &#128512; → &#128512</li>
+    </ul>
+    <p>Al final de cada entidad es necesario poner ;</p>
+    <hr>
+    <h2>📌 Reto final</h2>
+    <p>Crea un documento que combine:</p>
+    <ol>
+        <li>Texto con <b>formato</b> y <em>énfasis</em>.</li>
+        <li>Una lista con tus comidas favoritas.</li>
+        <li>Una tabla con 2 emojis que te gusten.</li>
+        <li>Frases con símbolos y emojis.</li>
+    </ol>
+</body>
+</html>
